@@ -39,16 +39,16 @@ _zsh_autosuggest_bind_widgets
 # Syntax highlighting must be last
 zinit light zsh-users/zsh-syntax-highlighting
 
-# 5) mise
-command -v mise >/dev/null && eval "$(mise activate zsh)"
-
-# 6) PATH (dedupe + order)
+# 5) PATH (dedupe + order)
 typeset -U path PATH
 path=(
-  /home/eduardo/.opencode/bin
-  /home/eduardo/bin
+  "$HOME/bin"
+  "$HOME/.local/bin"
+  "$HOME/go/bin"
+  "$HOME/.opencode/bin"
+  "$HOME/.bun/bin"
   $path
 )
 
-# Nix
-[[ -e /home/eduardo/.nix-profile/etc/profile.d/nix.sh ]] && . /home/eduardo/.nix-profile/etc/profile.d/nix.sh
+# 6) mise
+command -v mise >/dev/null && eval "$(mise activate zsh)"
