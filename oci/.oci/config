@@ -1,0 +1,6 @@
+[PERSONAL]
+user=ocid1.user.oc1..aaaaaaaak7ctxs5dccgsszwerbb3fmguclhzac2gx43vtiwgagtnm36vioia
+fingerprint=a4:c6:bd:c9:c9:8a:e8:2f:4a:35:e0:04:da:24:f6:ab
+tenancy=ocid1.tenancy.oc1..aaaaaaaaqofpcxuqzirvl5ukgy7rwq3wu7xssy2i6zygoaoltfvttdcr4cba
+region=sa-saopaulo-1
+key_file=/home/eduardo/.ssh/personal_oci_api.pem
