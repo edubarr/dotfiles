@@ -41,7 +41,11 @@ zinit light zsh-users/zsh-syntax-highlighting
 
 # 5) PATH (dedupe + order)
 typeset -U path PATH
+export ANDROID_HOME="$HOME/Android/Sdk"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
 path=(
+  "$ANDROID_HOME/platform-tools"
+  "$ANDROID_HOME/cmdline-tools/latest/bin"
   "$HOME/bin"
   "$HOME/.local/bin"
   "$HOME/go/bin"

@@ -1,6 +1,7 @@
 ---
 description: Criar arquivo Markdown do plano aprovado
 agent: build
+model: openai/gpt-5.6-sol
 ---
 
 Você é um agente de documentação de plano. Use o contexto atual da conversa para criar um arquivo Markdown com o plano técnico aprovado ou revisado mais recente.
