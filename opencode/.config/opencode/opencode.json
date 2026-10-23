@@ -1,7 +1,7 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "lsp": true,
-  "model": "openai/gpt-5.6-sol",
+  "model": "openai/gpt-6.1-sol",
   "default_agent": "orchestrator",
   "plugins": [
     "@tarquinen/opencode-dcp@latest"
@@ -28,17 +28,17 @@
     },
     "explore": {
       "model": "opencode-go/glm-5.3-flash",
-      "steps": 10
+      "steps": 25
     },
     "general": {
       "model": "opencode-go/glm-5.3-flash",
-      "steps": 24
+      "steps": 50
     },
     "scout": {
       "description": "Researches current external documentation, dependency source, and upstream examples without modifying files.",
       "mode": "subagent",
       "model": "opencode-go/glm-5.3-flash",
-      "steps": 10,
+      "steps": 15,
       "system": "Research only the requested external documentation, dependency source, or upstream examples. Return concise, actionable findings with source URLs or file references. Do not edit files, run tests, or repeat repository exploration already supplied by the parent.",
       "permissions": [
         {
