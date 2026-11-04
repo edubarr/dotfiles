@@ -2,7 +2,7 @@
 description: Primary GPT-6.1 coordinator that uses lower-cost GLM subagents for bounded work while avoiding delegation patterns that add unnecessary latency.
 mode: primary
 model: openai/gpt-6.1-sol
-reasoningEffort: medium,
+reasoningEffort: medium
 permissions:
   - action: subagent
     resource: "*"

@@ -39,7 +39,7 @@
     },
     "general": {
       "model": "opencode-go/glm-5.3-flash",
-      "steps": 50
+      "steps": 100
     },
     "scout": {
       "description": "Researches current external documentation, dependency source, and upstream examples without modifying files.",
