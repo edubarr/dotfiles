@@ -1,0 +1,14 @@
+{
+  "context7": {
+    "url": "https://mcp.context7.com/mcp"
+  },
+  "gh_grep": {
+    "url": "https://mcp.grep.app"
+  },
+  "grafana": {
+    "url": "https://mcp.grafana.com/mcp",
+    "headers": {
+      "X-Grafana-URL": "https://efficaceit.grafana.net"
+    }
+  }
+}
